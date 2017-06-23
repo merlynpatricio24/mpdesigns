@@ -216,6 +216,15 @@ nav.smallnav a:hover {
 
 /* Story*/
 
+#storynav {
+  width: 10px;
+  height: 10px;
+  display: hidden;
+  position: absolute;
+  top: 560px;
+ 
+}
+
 .story {
   background-color: black;
   background-size: cover;
@@ -312,6 +321,14 @@ nav.smallnav a:hover {
 
 /* Process*/
 
+#processnav {
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  top: 1060px;
+  display: hidden;
+}
+
 .process {
   background: url("coverbg.png") no-repeat center center;
   background-size: cover;
@@ -378,6 +395,15 @@ nav.smallnav a:hover {
 
 
 /* Work*/
+
+#worknav {
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  top: 1697px;
+  display: hidden;
+}
+
 
 .work {
   background-color: black;
