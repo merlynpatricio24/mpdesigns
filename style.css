@@ -1,0 +1,708 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+@import url(http://allfont.net/allfont.css?fonts=montserrat-light);
+@import url(https://fonts.googleapis.com/css?family=Lato:light);
+
+ /*{
+	outline-style: dotted;
+	outline-width: 0.5px;
+} */
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+	margin: 0;
+	padding: 0;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+
+
+.container {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+
+/* Navbar*/
+.header {
+  background-color: rgb(0,0,0);
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+  padding: 0;
+  float: left;
+}
+
+.nav {
+  list-style-type: none;
+  margin: 0;
+  height: 80px;
+}
+
+.smallbar {
+  list-style-type: none;
+  margin: 0;
+  height: 80px;
+  display: none;
+}
+
+#smalllogo {
+    width:200px;
+    height:90px;
+    position: relative;
+    right: 60px;
+}
+
+.nav li {
+  color: #fff;
+  display: inline;
+  font-family: 'montserrat-light', sans-serif;
+  font-size: 16px;
+  margin-right: 25px;
+  text-transform: uppercase;
+  float: right;
+  position: relative;
+  top: 30px;
+  left: 100px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-decoration: none;
+}
+
+.nav li a {
+  text-decoration: none;
+  color: white;
+  padding: 28px 16px;
+  text-align: center;
+  transition-duration: 0.5s;
+}
+
+.nav li a:hover {
+  background-color: white;
+  color: black;
+}
+
+
+#logo {
+    width:200px;
+    height:90px;
+    position: relative;
+    right: 150px;
+}
+
+.menu-on {
+  background-color: black;
+  color: white;
+  position: fixed;
+  right: 5;
+  top: 13px;
+  z-index: 1001;
+  padding: 10px;
+  display: none;
+}
+
+.menu-off {
+  position: fixed;
+  left: 0;
+  top:0;
+  right: 0;
+  bottom: 0;
+  z-index: 1000;
+  display: none;
+}
+
+nav.smallnav {
+  background-color: black;
+  position: fixed;
+  right: 0;
+  top: 20;
+  min-width: 200px;
+  z-index: 1002;
+  display: none;
+}
+
+nav.smallnav a {
+  color: white;
+  display: block;
+  padding: 5px 10px;
+  font-family: 'montserrat-light', sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition-duration: 0.5s;
+}
+
+nav.smallnav a:hover {
+  background-color: white;
+  color: black;
+  left: 0;
+}
+
+.menu-off {
+  display: none;
+}
+
+#toggle-menu {
+  display: none;
+}
+
+#toggle-menu:checked ~ nav.smallnav {
+  display:block;
+}
+
+#toggle-menu:checked ~ .menu-off {
+  display: block;
+}
+
+/* Cover*/
+
+.cover {
+  background: url("coverbg.png") no-repeat center center;
+  background-size: cover;
+  height: 700px;
+  background-attachment: fixed;
+}
+
+.slogan {
+  position: relative;
+  top: 250px;
+  text-align: center;
+}
+
+.slogan h1 {
+  color: white;
+  font-family: 'montserrat-light', sans-serif;
+  font-size: 40px;
+  margin-top: 0;
+  text-transform: uppercase;
+}
+
+.slogan span {
+  color: white;
+  font-family: 'montserrat-light', sans-serif;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+.button {
+  position: relative;
+  top: 250px;
+  text-align: center;
+}
+
+.btn-main {
+	border: 2px solid;
+	border-color: #009dff;
+	border-radius: 25px;
+	color: white;
+	text-decoration: none;
+	font-family: "montserrat-light", sans-serif;
+	padding: 16px 40px;
+	text-transform: uppercase;
+  position: relative;
+  top: 100px;
+  transition-duration: 0.4s;
+}
+
+.btn-main:hover {
+  background-color: #009dff;
+  border-color: white;
+}
+
+/* Story*/
+
+.story {
+  background-color: black;
+  background-size: cover;
+  height: 427px;
+}
+
+.mystory h1 {
+  border: 4px solid;
+  border-color: #009dff;
+  color: white;
+  font-family: 'montserrat-light', sans-serif;
+  font-size: 30px;
+  text-transform: uppercase;
+  position: relative;
+  display: inline-block;
+  width: 25%;
+  height: 50px;
+  top: 10px;
+  right: 120px;
+  text-align: center;
+  padding-top: 5px;
+}
+
+#mePhoto {
+  height: auto;
+  width: 30%;
+  float: right;
+  margin: 0;
+  position: relative;
+  bottom: 90px;
+  left: 170px;
+  max-width: 100%;
+}
+
+#circlemePhoto {
+  display: none;
+  width: 25%;
+  height: auto;
+}
+
+.story p {
+  color: white;
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  line-height: 25px;
+  position: absolute;
+  display: block;
+  text-align: justify;
+  padding: 0;
+  width: 70%;
+  right: 330px;
+}
+
+.btn-resume {
+  border: 2px solid;
+  border-color: #009dff;
+  border-radius: 25px;
+  color: white;
+  text-decoration: none;
+  font-family: "montserrat-light", sans-serif;
+  padding: 12px 18px;
+  text-transform: uppercase;
+  position: relative;
+  transition-duration: 0.4s;
+  top: 250px;
+  left:445px;
+}
+
+.btn-resume:hover {
+  background-color: #009dff;
+  border-color: white;
+}
+
+.btn-portfolio {
+  border: 2px solid;
+  border-color: #009dff;
+  border-radius: 25px;
+  color: white;
+  text-decoration: none;
+  font-family: "montserrat-light", sans-serif;
+  padding: 12px 18px;
+  text-transform: uppercase;
+  position: relative;
+  transition-duration: 0.4s;
+  top:250px;
+  left:450px;
+}
+
+.btn-portfolio:hover {
+  background-color: #009dff;
+  border-color: white;
+}
+
+
+/* Process*/
+
+.process {
+  background: url("coverbg.png") no-repeat center center;
+  background-size: cover;
+  height: 650px;
+  background-attachment: fixed;
+}
+
+.process1 {
+ float: left;
+}
+
+.details {
+  text-align: left;
+  color: white;
+  position: relative;
+  float: left;
+  width: 500px;
+  right: 120px;
+  bottom: 90px;
+  
+}
+
+.details h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  line-height: 1px;
+  font-size: 18px;
+}
+
+
+.details p {
+    font-family: 'Lato',sans-serif;
+    text-justify: auto;
+    line-height: 100%;
+    font-size: 16px;
+}
+
+#uxsvg {
+  position: relative;
+  bottom: 750px;
+  left: 90px;
+  width: 1300px;
+
+}
+
+.myprocess h1 {
+  border: 4px solid;
+  border-color: #009dff;
+  color: white;
+  font-family: 'montserrat-light', sans-serif;
+  font-size: 30px;
+  text-transform: uppercase;
+  position: relative;
+  display: inline-block;
+  width: 220px;
+  height: 50px;
+  bottom: 90px;
+  right: 120px;
+  text-align: center;
+  padding-bottom:5px;
+  width: 30%;
+}
+
+
+
+/* Work*/
+
+.work {
+  background-color: black;
+  background-size: cover;
+  height: 650px;
+}
+
+.mywork {
+  position: relative;
+  text-align: center;
+}
+
+.mywork h1 {
+  border: 4px solid;
+  border-color: #009dff;
+  color: white;
+  font-family: 'montserrat-light', sans-serif;
+  font-size: 30px;
+  text-transform: uppercase;
+  position: relative;
+  display: inline-block;
+  width: 25%;
+  height: 50px;
+  bottom: 80px;
+  text-align: center;
+}
+
+.tee {
+  background: url("grocery.png") no-repeat center center;
+  width: 550px;
+  height: 230px;
+  position: relative;
+  bottom: 80px;
+  right: 90px;
+}
+
+.tee_hover{
+ position: absolute;
+  top: 10%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.tee:hover .tee_hover {
+  visibility: visible;
+  opacity: 1;
+  top:0;
+  cursor: pointer;
+} 
+
+.tee h1 {
+  color: white;
+  font-family: 'montserrat-light', sans-serif;
+  font-size: 45px;
+  margin-top: 0;
+  text-transform: uppercase;
+  top: 120px;
+  position: relative;
+}
+
+.tee h3 {
+  color: white;
+  font-family: 'montserrat-light', sans-serif;
+  font-size: 25px;
+  margin-top: 0;
+  text-transform: uppercase;
+  top: 150px;
+  position: relative;
+}
+
+
+.tee p {
+  color: white;
+  font-family: 'Lato', sans-serif;
+  position: relative;
+  text-align: justify;
+  width: 90%;
+  left: 15px;
+  bottom: 100px;
+  font-size: 16px;
+}
+
+.jof {
+  background: url("flight.png") no-repeat center center;
+  width: 550px;
+  height: 230px;
+  position: relative;
+  bottom: 60px;
+  right: 90px;
+}
+
+.jof_hover{
+ position: absolute;
+  top: 10%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.jof:hover .jof_hover {
+  visibility: visible;
+  opacity: 1;
+  top:0;
+  background-size: 110;
+  cursor: pointer;
+}
+
+.jof h1 {
+  color: white;
+  font-family: 'montserrat-light', sans-serif;
+  font-size: 45px;
+  margin-top: 0;
+  text-transform: uppercase;
+  top: 120px;
+  position: relative;
+}
+
+.jof h3 {
+  color: white;
+  font-family: 'montserrat-light', sans-serif;
+  font-size: 25px;
+  margin-top: 0;
+  text-transform: uppercase;
+  top: 150px;
+  position: relative;
+}
+
+.bayong {
+  background: url("commerce.png") no-repeat center center;
+  width: 550px;
+  height: 230px;
+  position: relative;
+  left: 480px;
+  bottom: 540px;
+}
+
+.bayong_hover{
+ position: absolute;
+  top: 10%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.bayong:hover .bayong_hover {
+  visibility: visible;
+  opacity: 1;
+  top:0;
+  cursor: pointer;
+}
+
+.bayong h1 {
+  color: white;
+  font-family: 'montserrat-light', sans-serif;
+  font-size: 45px;
+  margin-top: 0;
+  text-transform: uppercase;
+  top: 120px;
+  position: relative;
+}
+
+.bayong h3 {
+  color: white;
+  font-family: 'montserrat-light', sans-serif;
+  font-size: 25px;
+  margin-top: 0;
+  text-transform: uppercase;
+  top: 150px;
+  position: relative;
+}
+
+
+.hhh {
+  background: url("fashion.png") no-repeat center center;
+  width: 550px;
+  height: 230px;
+  position: relative;
+  left: 480px;
+  bottom: 520px;
+}
+
+.hhh_hover{
+  position: absolute;
+  top: 10%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.5s;
+
+}
+
+.hhh:hover .hhh_hover {
+  visibility: visible;
+  opacity: 1;
+  top:0;
+  cursor: pointer;
+}
+
+.hhh h1 {
+  color: white;
+  font-family: 'montserrat-light', sans-serif;
+  font-size: 45px;
+  margin-top: 0;
+  text-transform: uppercase;
+  top: 120px;
+  position: relative;
+}
+
+.hhh h3 {
+  color: white;
+  font-family: 'montserrat-light', sans-serif;
+  font-size: 25px;
+  margin-top: 0;
+  text-transform: uppercase;
+  top: 150px;
+  position: relative;
+}
+
+
+
+/* Contact*/
+
+.contact {
+  background: url("coverbg.png") no-repeat center center;
+  background-size: cover;
+  height: 550px;
+  background-attachment: fixed;
+}
+
+.mycontact {
+  position: relative;
+  text-align: center;
+}
+
+.mycontact h1 {
+  border: 4px solid;
+  border-color: #009dff;
+  color: white;
+  font-family: 'montserrat-light', sans-serif;
+  font-size: 30px;
+  text-transform: uppercase;
+  position: relative;
+  display: inline-block;
+  width: 250px;
+  height: 50px;
+  top: 10px;
+  text-align: center;
+  padding-top: 5px;
+}
+
+.info {
+  color: white;
+  font-family: 'montserrat-light', sans-serif;
+  font-size: 20px;
+  display: inline;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  left: 200px;
+  top: 30px;
+}
+
+.info p {
+  position: relative;
+  left: 120px;
+  bottom: 40px;
+  margin: 0;
+  padding: 0;
+  line-height: 110%;
+}
+
+.info i {
+  margin: 0;
+  padding: 0;
+}
+
+.est {
+  position: relative;
+  text-align: center;
+}
+
+.btn-email {
+ border: 2px solid;
+  border-color: #009dff;
+  border-radius: 25px;
+  color: white;
+  text-decoration: none;
+  font-family: "montserrat-light", sans-serif;
+  padding: 16px 40px;
+  text-transform: uppercase;
+  position: relative;
+  transition-duration: 0.4s;
+  top: 40px
+  }
+
+.btn-email:hover {
+  background-color: #009dff;
+  border-color: white;
+}
+
+#memo {
+  color: white;
+  font-family: "Lato", sans-serif;
+  position: relative;
+  top: 70px;
+  text-align: center;
+  font-size: 12px;
+}
+
+
+
+
