@@ -1,5 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat);
-@import url(http://allfont.net/allfont.css?fonts=montserrat-light);
+@import url(https://allfont.net/allfont.css?fonts=montserrat-light);
 @import url(https://fonts.googleapis.com/css?family=Lato:light);
 
  /*{
@@ -480,16 +480,7 @@ nav.smallnav a:hover {
 }
 
 
-.tee p {
-  color: white;
-  font-family: 'Lato', sans-serif;
-  position: relative;
-  text-align: justify;
-  width: 90%;
-  left: 15px;
-  bottom: 100px;
-  font-size: 16px;
-}
+
 
 .jof {
   background: url("flight.png") no-repeat center center;
