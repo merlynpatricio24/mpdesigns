@@ -59,7 +59,7 @@ html, body {
     height:90px;
     position: relative;
     right: 60px;
-    font-style: "montserrat-light";
+    font-family: "montserrat-light", sans-serif;
 }
 
 .nav li {
