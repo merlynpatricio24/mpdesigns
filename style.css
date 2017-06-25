@@ -372,6 +372,7 @@ nav.smallnav a:hover {
   bottom: 750px;
   left: 90px;
   width: 1300px;
+  max-width: 100%;
 
 }
 
