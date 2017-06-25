@@ -10,17 +10,6 @@
 	outline-width: 0.5px;
 } */
 
-@font-face {
-    font-family: "Montserrat";
-    src: url(https://fonts.googleapis.com/css?family=Montserrat)
-    format('svg');
-}
-
-@font-face {
-    font-family: "montserrat-light";
-    src: url(https://allfont.net/allfont.css?fonts=montserrat-light)
-    format('svg');
-}
 
 * {
   box-sizing: border-box;
@@ -70,6 +59,7 @@ html, body {
     height:90px;
     position: relative;
     right: 60px;
+    font-style: "montserrat-light";
 }
 
 .nav li {
