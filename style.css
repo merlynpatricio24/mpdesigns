@@ -90,10 +90,10 @@ html, body {
 
 
 #logo {
-    width:200px;
-    height:90px;
+    width:180px;
+    height: auto;
     position: relative;
-    right: 150px;
+    right: 130px;
     font-family: "montserrat-light", sans-serif;
 }
 
@@ -369,10 +369,10 @@ nav.smallnav a:hover {
 
 #uxsvg {
   position: relative;
-  bottom: 750px;
-  left: 90px;
-  width: 1300px;
-  /*max-width: 100%;*/
+  bottom: 550px;
+  left: 400px;
+  width: 65%;
+  max-width: 100%;
 
 }
 

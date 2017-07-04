@@ -61,9 +61,9 @@ padding-right:5px;
 }
 
 #uxsvg {
-	width: 100%;
-	left: 210px;
-	bottom: 570px;
+	width: 50%;
+	left: 410px;
+	bottom: 500px;
 }
 
 .details {
@@ -170,18 +170,18 @@ padding-right:5px;
 }
 
 .story {
-	height: 670px;
+	height: 700px;
 }
 
 .btn-resume {
 	position: relative;
-	top: 400px;
+	top: 440px;
 	left: 160px;
 }
 
 .btn-portfolio {
 	position: relative;
-	top: 400px;
+	top: 440px;
 	left: 160px;
 }
 
@@ -208,9 +208,9 @@ padding-right:5px;
 
 #uxsvg {
 	position: relative;
-	width: 170%;
-	bottom: 560px;
-	left:-155;
+	width: 80%;
+	bottom: 460px;
+	left:50px;
 }
 
 .details {
@@ -271,170 +271,28 @@ padding-right:5px;
 
 }
 
-@media only screen and (min-width : 320px) and (max-width : 400px)
+/* Midway Adjustments */
+
+@media only screen and (min-width : 400px) and (max-width : 797px)
 {
-	/* Story */
 
-.mystory h1 {
-	width: 50%;
-	position: relative;
-	left: 100px;
-}
-
-#mePhoto {
+	.nav {
 	display: none;
 }
 
-#circlemePhoto {
+.menu-on{
 	display: block;
-	position: relative;
-	left: 150px;
-	top: 10px;
+	transition-duration: 0.5s;
 }
 
-.story p {
-	width: 90%;
-	left: 25px;
+.menu-on:hover {
+	cursor: pointer;
+	color:#009dff;
 }
 
-.story {
-	height: 720px;
-}
-
-.btn-resume {
-	position: relative;
-	top: 480px;
-	left: 50px;
-}
-
-.btn-portfolio {
-	position: relative;
-	top: 480px;
-	left: 50px;
-}
-
-/* Process */
-
-.process {
-
-	height: 900px;
-}
-
-.myprocess h1 {
-	position: relative;
-	right: 0;
-	left: 80px;
-	bottom: 0px;
-	width: 60%
-
-}
-
-.myprocess {
-
-	width: 100%;
-}
-
-#uxsvg {
-	position: relative;
-	width: 170%;
-	bottom: 530px;
-	left:-125;
-}
-
-.details {
-	top: 300px;
-	right: 0px;
-	left: 10px;
-	width: 100%;
-}
-
-/* Work */
-
-.work {
-	height: 1100px;
-}
-
-.mywork h1 {
-	width: 50%;
-	top: 10px;
-}
-
-.tee {
-	right: 0px;
-	left:-10px;
-	top: 10px;
-	bottom: 0px
-}
-
-.tee_hover h3 {
-	font-size: 15px;
-	top: 170px;
-}
-
-.tee_hover h1 {
-	font-size: 35px;
-	top: 150px;
-}
-
-.bayong {
-  left: -10px;
-  bottom: 200px;
-}
-
-.bayong_hover h3{
-  font-size: 15px;
-  top: 170px;
-}
-
-.bayong_hover h1{
-  font-size: 35px;
-  top: 150px;
-}
-
-.jof {
-  top: 280px;
-  left: -10px;
-}
-
-.jof_hover h3{
-  font-size: 15px;
-  top: 170px;
-}
-
-.jof_hover h1{
-  font-size: 35px;
-  top: 150px;
-}
-
-.hhh {
-  left: -10px;
-  bottom: 0px;
-  top: 70;
-
-}
-
-.hhh_hover h3{
-  font-size: 15px;
-  top: 170px;
-}
-
-.hhh_hover h1{
-  font-size: 35px;
-  top: 150px;
-}
-
-/* Contact */
-
-.info i {
-	position: relative;
-	right: 190px;
-}
-
-.info p {
-  left: -100px;
-  bottom: 45px;
-  width: 75%;
-  font-size: 16px;
+.smallbar {
+	display: block;
 }
 
 }
+
