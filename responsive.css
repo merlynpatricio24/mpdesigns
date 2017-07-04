@@ -121,155 +121,7 @@ padding-right:5px;
 }
 
 
-/* MOBILE */
 
-@media only screen and (min-width : 320px) and (max-width : 500px) {
-
-/*Navbar */
-
-.nav {
-	display: none;
-}
-
-.menu-on{
-	display: block;
-	transition-duration: 0.5s;
-}
-
-.menu-on:hover {
-	cursor: pointer;
-	color:#009dff;
-}
-
-.smallbar {
-	display: block;
-}
-
-/* Story */
-
-.mystory h1 {
-	width: 40%;
-	position: relative;
-	left: 140px;
-}
-
-#mePhoto {
-	display: none;
-}
-
-#circlemePhoto {
-	display: block;
-	position: relative;
-	left: 170px;
-	top: 10px;
-}
-
-.story p {
-	width: 90%;
-	left: 25px;
-}
-
-.story {
-	height: 700px;
-}
-
-.btn-resume {
-	position: relative;
-	top: 440px;
-	left: 160px;
-}
-
-.btn-portfolio {
-	position: relative;
-	top: 440px;
-	left: 160px;
-}
-
-/* Process */
-
-.process {
-
-	height: 900px;
-}
-
-.myprocess h1 {
-	position: relative;
-	right: 0;
-	left: 120px;
-	bottom: 0px;
-	width: 50%
-
-}
-
-.myprocess {
-
-	width: 100%;
-}
-
-#uxsvg {
-	position: relative;
-	width: 80%;
-	bottom: 460px;
-	left:50px;
-}
-
-.details {
-	top: 320px;
-	right: 0px;
-	left: 10px;
-	width: 100%;
-}
-
-/* Work */
-
-.work {
-	height: 1100px;
-}
-
-.mywork h1 {
-	width: 50%;
-	top: 10px;
-}
-
-.tee {
-	right: 0px;
-	left:-10px;
-	top: 10px;
-	bottom: 0px
-}
-
-.bayong {
-  left: -10px;
-  bottom: 200px;
-}
-
-.jof {
-  top: 280px;
-  left: -10px;
-}
-
-.hhh {
-  left: -10px;
-  bottom: 0px;
-  top: 70;
-
-}
-
-/* Contact */
-
-.info i {
-	position: relative;
-	right: 190px;
-}
-
-.info p {
-  left: -100px;
-  bottom: 45px;
-  width: 80%;
-}
-
-
-}
 
 /* Midway Adjustments */
 
@@ -295,4 +147,181 @@ padding-right:5px;
 }
 
 }
+
+@media only screen and (min-width : 320px) and (max-width : 513px)
+{
+
+	/* Nav Bar */
+#logo {
+	position: relative;
+	width: 30%;
+	left: 50px;
+}
+
+	/* Story */
+
+.mystory h1 {
+	width: 50%;
+	position: relative;
+	left: 100px;
+}
+
+#mePhoto {
+	display: none;
+}
+
+#circlemePhoto {
+	display: block;
+	position: relative;
+	left: 150px;
+	top: 10px;
+}
+
+.story p {
+	width: 90%;
+	left: 25px;
+}
+
+.story {
+	height: 720px;
+}
+
+.btn-resume {
+	position: relative;
+	top: 480px;
+	left: 50px;
+}
+
+.btn-portfolio {
+	position: relative;
+	top: 480px;
+	left: 50px;
+}
+
+/* Process */
+
+.process {
+
+	height: 900px;
+}
+
+.myprocess h1 {
+	position: relative;
+	right: 0;
+	left: 80px;
+	bottom: 0px;
+	width: 60%
+
+}
+
+.myprocess {
+
+	width: 100%;
+}
+
+#uxsvg {
+	position: relative;
+	width: 90%;
+	bottom: 450px;
+	left:25px;
+}
+
+.details {
+	top: 300px;
+	right: 0px;
+	left: 10px;
+	width: 100%;
+}
+
+/* Work */
+
+.work {
+	height: 1100px;
+}
+
+.mywork h1 {
+	width: 50%;
+	top: 10px;
+}
+
+.tee {
+	right: 0px;
+	left:-10px;
+	top: 10px;
+	bottom: 0px
+}
+
+.tee_hover h3 {
+	font-size: 15px;
+	top: 170px;
+}
+
+.tee_hover h1 {
+	font-size: 35px;
+	top: 150px;
+}
+
+.bayong {
+  left: -10px;
+  bottom: 200px;
+}
+
+.bayong_hover h3{
+  font-size: 15px;
+  top: 170px;
+}
+
+.bayong_hover h1{
+  font-size: 35px;
+  top: 150px;
+}
+
+.jof {
+  top: 280px;
+  left: -10px;
+}
+
+.jof_hover h3{
+  font-size: 15px;
+  top: 170px;
+}
+
+.jof_hover h1{
+  font-size: 35px;
+  top: 150px;
+}
+
+.hhh {
+  left: -10px;
+  bottom: 0px;
+  top: 70;
+
+}
+
+.hhh_hover h3{
+  font-size: 15px;
+  top: 170px;
+}
+
+.hhh_hover h1{
+  font-size: 35px;
+  top: 150px;
+}
+
+/* Contact */
+
+.info i {
+	position: relative;
+	right: 190px;
+}
+
+.info p {
+  left: -100px;
+  bottom: 45px;
+  width: 75%;
+  font-size: 16px;
+}
+
+}
+
 
