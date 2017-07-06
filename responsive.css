@@ -218,6 +218,12 @@ padding-right:5px;
 
 /* Process */
 
+#processnav {
+  top: 1330px;
+  }
+
+
+
 .process {
 
 	height: 900px;
@@ -253,6 +259,10 @@ padding-right:5px;
 
 /* Work */
 
+#worknav {
+  top: 2240px;
+}
+
 .work {
 	height: 1100px;
 }
@@ -267,6 +277,20 @@ padding-right:5px;
 	left:-10px;
 	top: 10px;
 	bottom: 0px
+}
+
+.tee_hover {
+	visibility: visible;
+	opacity: 1;
+	top: 2%;
+}
+
+.tee:hover .tee_hover {
+  visibility: visible;
+  opacity: 1;
+  top:0;
+  background-size: 110;
+  cursor: pointer;
 }
 
 .tee_hover h3 {
@@ -284,6 +308,20 @@ padding-right:5px;
   bottom: 200px;
 }
 
+.bayong_hover {
+	visibility: visible;
+	opacity: 1;
+	top: 2%;
+}
+
+.bayong:hover .bayong_hover {
+  visibility: visible;
+  opacity: 1;
+  top:0;
+  background-size: 110;
+  cursor: pointer;
+}
+
 .bayong_hover h3{
   font-size: 15px;
   top: 170px;
@@ -297,6 +335,20 @@ padding-right:5px;
 .jof {
   top: 280px;
   left: -10px;
+}
+
+.jof_hover {
+	visibility: visible;
+	opacity: 1;
+	top: 2%;
+}
+
+.jof:hover .jof_hover {
+  visibility: visible;
+  opacity: 1;
+  top:0;
+  background-size: 110;
+  cursor: pointer;
 }
 
 .jof_hover h3{
@@ -314,6 +366,20 @@ padding-right:5px;
   bottom: 0px;
   top: 70;
 
+}
+
+.hhh_hover {
+	visibility: visible;
+	opacity: 1;
+	top: 2%;
+}
+
+.hhh:hover .hhh_hover {
+  visibility: visible;
+  opacity: 1;
+  top:0;
+  background-size: 110;
+  cursor: pointer;
 }
 
 .hhh_hover h3{
