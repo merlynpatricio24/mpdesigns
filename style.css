@@ -232,6 +232,7 @@ nav.smallnav a:hover {
   background-color: black;
   background-size: cover;
   height: 427px;
+  max-width: 100%;
 }
 
 .mystory h1 {
@@ -279,6 +280,7 @@ nav.smallnav a:hover {
   padding: 0;
   width: 70%;
   right: 330px;
+   margin:0 auto;
 }
 
 .btn-resume {
