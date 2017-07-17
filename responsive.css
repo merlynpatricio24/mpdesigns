@@ -259,7 +259,8 @@ padding-right:5px;
 /* Work */
 
 #worknav {
-  top: 2240px;
+  top: 1940px;
+  background-color: white;
 }
 
 .work {
