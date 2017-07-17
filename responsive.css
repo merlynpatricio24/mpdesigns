@@ -197,6 +197,7 @@ padding-right:5px;
 
 .story p {
 	width: 90%;
+	top: 900px;
 	left: 25px;
 }
 
@@ -225,8 +226,7 @@ padding-right:5px;
 
 
 .process {
-
-	height: 900px;
+	height: 600px;
 }
 
 .myprocess h1 {
@@ -237,9 +237,7 @@ padding-right:5px;
 	width: 60%
 
 }
-
 .myprocess {
-
 	width: 100%;
 }
 
@@ -248,10 +246,11 @@ padding-right:5px;
 	width: 90%;
 	bottom: 450px;
 	left:25px;
+	display: none;
 }
 
 .details {
-	top: 300px;
+	top: 0;
 	right: 0px;
 	left: 10px;
 	width: 100%;
