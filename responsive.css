@@ -207,13 +207,13 @@ padding-right:5px;
 
 .btn-resume {
 	position: relative;
-	top: 485px;
+	top: 495px;
 	left: 50px;
 }
 
 .btn-portfolio {
 	position: relative;
-	top: 485px;
+	top: 495px;
 	left: 50px;
 }
 
@@ -260,7 +260,6 @@ padding-right:5px;
 
 #worknav {
   top: 1940px;
-  background-color: white;
 }
 
 .work {
