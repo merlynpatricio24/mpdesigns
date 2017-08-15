@@ -1,4 +1,5 @@
 
+
 body {
     background: #ffffff;
     font-family: 'Lato', sans-serif;
@@ -308,7 +309,7 @@ home section
   border-color: transparent;
 }
 #home .btn-danger {
-  background: #00619a;
+  background: #2a1f4e;
   border-color: transparent;
 }
 #home .btn-danger:hover {
@@ -575,7 +576,7 @@ contact section
   }
 
 .btn-email:hover {
-  background: transparent;
+  background: #2a1f4e;
   border-color: white;
   color: white;
   text-decoration: none;
