@@ -322,7 +322,9 @@ home section
 about section
 ========================================================================== */
 #about {
-  background: #00619a;
+background-color: #00619a;
+background-image: url(http://www.transparenttextures.com/patterns/cubes.png);
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
   color: #ffffff;
   text-align: center;
 }
