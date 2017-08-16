@@ -93,8 +93,8 @@ preloader section
     background: none repeat scroll 0 0 #fff;
 }
 .sk-spinner-circle.sk-spinner {
-  width: 22px;
-  height: 22px;
+  width: 100px;
+  height: 100px;
   position: relative; }
 .sk-spinner-circle .sk-circle {
   width: 100%;
@@ -108,7 +108,7 @@ preloader section
   margin: 0 auto;
   width: 20%;
   height: 20%;
-  background-color: #009dff;
+  background-color: #00619a;
   border-radius: 100%;
   -webkit-animation: sk-circleBounceDelay 1.2s infinite ease-in-out;
           animation: sk-circleBounceDelay 1.2s infinite ease-in-out;
