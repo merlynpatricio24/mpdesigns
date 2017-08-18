@@ -657,6 +657,7 @@ media quires for mobile
 
   .btn-resume {
     position: absolute;
+    left: 100px;
   }
 
   .btn-portfolio {
