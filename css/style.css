@@ -656,11 +656,11 @@ media quires for mobile
   }
 
   .btn-resume {
-    font-size: 12px;
+    position: absolute;
   }
 
   .btn-portfolio {
-    font-size: 12px;
+    position: relative;
   }
 
 }
