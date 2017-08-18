@@ -662,6 +662,7 @@ media quires for mobile
 
   .btn-portfolio {
     position: relative;
+    left: 100px;
   }
 
 }
