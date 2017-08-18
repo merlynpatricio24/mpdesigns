@@ -332,9 +332,15 @@ about section
 #about {
 background-color: #00619a;
 background-image: url(http://www.transparenttextures.com/patterns/cubes.png);
-/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+background-position: center;
 text-align: center;
+display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
 color: white;
+ -webkit-align-items: center;
+  -ms-flex-align: center;
+      align-items: center;
 }
 .storyheading {
   margin-bottom: 50px;
@@ -358,12 +364,12 @@ color: white;
   border-radius: 15px;
   color: #ffffff;
   font-size: 15px;
-  text-decoration: none;
-  font-family: "Lato", sans-serif;
-  padding: 12px 18px;
-  text-transform: uppercase;
-  transition-duration: 0.4s;
-  margin-right: 10px;
+  font-weight: 300;
+  letter-spacing: 2px;
+  padding: 12px 42px;
+  margin-top: 40px;
+  margin-right: 16px;
+  transition: all 0.4s ease-in-out;
 }
 
 .btn-resume:hover {
@@ -379,12 +385,12 @@ color: white;
   border-radius: 15px;
   color: #ffffff;
   font-size: 15px;
-  text-decoration: none;
-  font-family: "Lato", sans-serif;
-  padding: 12px 18px;
-  text-transform: uppercase;
-  transition-duration: 0.4s;
-  margin-left: 10px;
+  font-weight: 300;
+  letter-spacing: 2px;
+  padding: 12px 42px;
+  margin-top: 40px;
+  margin-right: 16px;
+  transition: all 0.4s ease-in-out;
 }
 
 .btn-portfolio:hover {
@@ -647,5 +653,15 @@ media quires for mobile
   }
   #home h3 {
     font-size: 14px;
+  }
+
+  .btn-resume {
+    position: absolute;
+    left: 110px;
+  }
+
+  .btn-portfolio {
+    position: relative;
+    
   }
 }
