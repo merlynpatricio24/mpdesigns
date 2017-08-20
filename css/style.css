@@ -359,8 +359,8 @@ color: white;
 }
 
 .btn-resume {
-  background: transparent;
-  border: 1px solid #ffffff;
+  background: #d10614;
+  border: 1px solid #d10614;
   border-radius: 15px;
   color: #ffffff;
   font-size: 15px;
@@ -373,30 +373,9 @@ color: white;
 }
 
 .btn-resume:hover {
-  background-color: #ffffff;
+  background-color: transparent;
   border-color: white;
-  color: #00619a;
-  text-decoration: none;
-}
-
-.btn-portfolio {
-  background: transparent;
-  border: 1px solid #ffffff;
-  border-radius: 15px;
-  color: #ffffff;
-  font-size: 15px;
-  font-weight: 300;
-  letter-spacing: 2px;
-  padding: 12px 42px;
-  margin-top: 40px;
-  margin-right: 16px;
-  transition: all 0.4s ease-in-out;
-}
-
-.btn-portfolio:hover {
-    background-color: #ffffff;
-  border-color: white;
-  color: #00619a;
+  color: white;
   text-decoration: none;
 }
 
@@ -653,16 +632,6 @@ media quires for mobile
   }
   #home h3 {
     font-size: 14px;
-  }
-
-  .btn-resume {
-    position: absolute;
-    left: 100px;
-  }
-
-  .btn-portfolio {
-    position: relative;
-    left: 10px;
   }
 
 }
