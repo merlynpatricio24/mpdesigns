@@ -586,6 +586,11 @@ footer {
 footer p {
   padding-top: 20px;
 }
+
+#spiel {
+  color: #00619a;
+  font-weight: 700;
+}
 .social-icon {
   padding: 0;
   margin: 0;
