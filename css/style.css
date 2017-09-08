@@ -267,7 +267,7 @@ navigation section
 home section
 ========================================================================== */
 #home {
-  background: #3B3B3B url('../images/Forest.jpg') no-repeat center center;
+  background: #3B3B3B url('../images/rocket.svg') no-repeat center center;
   background-size: cover;
   background-position: center;
   color: #ffffff;
@@ -299,10 +299,10 @@ home section
   border: 1px solid white;
 }
 #home .btn {
-  background: transparent;
-  border: 1px solid #ffffff;
+  background: #00619a;
+  border: 1px solid #00619a;
   border-radius: 15px;
-  color: #ffffff;
+  color: white;
   font-size: 15px;
   font-weight: 300;
   letter-spacing: 2px;
@@ -312,12 +312,14 @@ home section
   transition: all 0.4s ease-in-out;
 }
 #home .btn:hover {
-  background: #00619a;
-  border-color: transparent;
+  background: transparent;
+  border-color: white;
+  color: white;
 }
 #home .btn-danger {
   background: #2a1f4e;
   border-color: transparent;
+  color: white;
 }
 #home .btn-danger:hover {
 	border: 1px solid #ffffff;
@@ -500,7 +502,7 @@ portfolio section
 contact section
 ========================================================================== */
 #contact {
-  background: #3B3B3B url('../images/rocket.svg') no-repeat center center;
+  background: #3B3B3B url('../images/Forest.jpg') no-repeat center center;
   background-size: cover;
   color: #ffffff;
   text-align: center;
