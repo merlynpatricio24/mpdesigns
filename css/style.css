@@ -265,7 +265,9 @@ navigation section
 home section
 ========================================================================== */
 #home {
-  background: #3B3B3B url('../images/rocket.svg') no-repeat center center;
+  background: #3B3B3B url('../images/rocket.svg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   color: #ffffff;
@@ -332,7 +334,8 @@ about section
 #about {
 background-color: #00619a;
 background-image: url(http://www.transparenttextures.com/patterns/cubes.png);
-background-position: center;
+  background-attachment: fixed;
+  background-position: center;
 text-align: center;
 display: -webkit-flex;
   display: -ms-flexbox;
@@ -501,7 +504,10 @@ contact section
 ========================================================================== */
 #contact {
   background: #3B3B3B url('../images/Forest.jpg') no-repeat center center;
+    background-attachment: fixed;
+  background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
   color: #ffffff;
   text-align: center;
 }
