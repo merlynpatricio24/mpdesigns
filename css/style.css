@@ -238,7 +238,7 @@ navigation section
   outline: none;
 }
 .custom-navbar .nav li.active > a {
-      color: #00619a;
+  /* For active page */
     }
 .custom-navbar .navbar-toggle {
         border: none;
@@ -374,6 +374,7 @@ color: white;
   margin-top: 40px;
   margin-right: 16px;
   transition: all 0.4s ease-in-out;
+
 }
 
 .btn-resume {
@@ -385,7 +386,7 @@ color: white;
   font-weight: 700;
   letter-spacing: 2px;
   padding: 12px 42px;
-  margin-top: 40px;
+  margin-top: 10px;
   margin-right: 16px;
   transition: all 0.4s ease-in-out;
 }
@@ -831,4 +832,6 @@ media quires for mobile
   #aboutme h1 {
     margin: 0px;
   }
+
+
 }
