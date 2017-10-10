@@ -814,3 +814,8 @@ media quires for mobile
   #merlynportrait {
     display: none;
   }
+
+  #aboutme h1 {
+    margin: 0px;
+  }
+}
