@@ -603,7 +603,7 @@ contact section
 aboutme section
 ========================================================================== */
 #aboutme {
-  background: #3B3B3B url('../images/aboutmecover.jpg');
+  background: #3B3B3B url('../images/rocket.svg');
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
