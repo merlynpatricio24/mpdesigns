@@ -238,7 +238,7 @@ navigation section
   outline: none;
 }
 .custom-navbar .nav li.active > a {
-  /* For active page */
+  /* For active page*/
     }
 .custom-navbar .navbar-toggle {
         border: none;
@@ -266,7 +266,7 @@ navigation section
 home section
 ========================================================================== */
 #home {
-  background: #3B3B3B url('../images/rocket.svg');
+  background: #3B3B3B url('../images/aboutmecover2.jpg');
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
