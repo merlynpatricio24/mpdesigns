@@ -59,8 +59,8 @@ hr {
   font-size: 32px !important;
 }
 
-#work,#about, #team, 
-#portfolio, #pricing, #contact {
+#work,#about, 
+#portfolio, #contact {
    padding-top: 100px;
   padding-bottom: 100px;
 }
@@ -202,6 +202,7 @@ preloader section
 /* ==========================================================================
 navigation section
 ========================================================================== */
+
 .custom-navbar {
     background: #1c1d1e;
     margin-bottom: 0;
@@ -499,6 +500,24 @@ portfolio section
   display: block;
 }
 
+.btn-portfolio {
+  background: #00619a;
+  border: 1px solid #00619a;
+  border-radius: 15px;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 300;
+  letter-spacing: 2px;
+  padding: 12px 42px;
+  transition: all 0.4s ease-in-out;
+}
+
+.btn-portfolio:hover {
+  background: transparent;
+  color: #00619a;
+  font-weight: 700;
+}
+
 /* ==========================================================================
 contact section
 ========================================================================== */
@@ -580,6 +599,136 @@ contact section
   text-decoration: none;
 }
 
+/* ==========================================================================
+aboutme section
+========================================================================== */
+#aboutme {
+  background: #3B3B3B url('../images/aboutmecover.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #ffffff;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+      align-items: center;
+  height: 100vh;
+  text-align: center;
+}
+
+#aboutme h1 {
+  border: 1px solid white;
+  padding: 40px 20px;
+  margin: 300px;
+}
+
+#aboutme span {
+  font-weight: 300;
+}
+
+/* ==========================================================================
+aboutme 2 section
+========================================================================== */
+
+
+#aboutmedescription p {
+  font-size: 16px;
+  line-height: 200%;
+}
+
+#aboutmedescription h1 {
+  margin-top: 70px;
+}
+
+.btn-resumeabout {
+  background: #00619a;
+  border: 1px solid #00619a;
+  border-radius: 15px;
+  color: white;
+  font-size: 15px;
+  font-weight: 300;
+  letter-spacing: 2px;
+  padding: 12px 42px;
+  margin: 20px;
+  transition: all 0.4s ease-in-out;
+  float: right;
+}
+
+.btn-resumeabout:hover {
+  background: transparent;
+  border: 1px solid #00619a;
+}
+
+#merlynportrait {
+  width: 280px;
+  height: 500px;
+}
+
+/* ==========================================================================
+portfolio page section
+========================================================================== */
+#portfoliopage {
+  background-color: #1c1d1e;
+  text-align: center;
+  color: white;
+  padding-top: 100px;
+  }
+#portfoliopage .container {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+#portfoliopage img {
+  width: 100%;
+  transition: all 0.4s ease-in-out;
+}
+#portfoliopage img:hover {
+  opacity: 0.5;
+}
+
+#portfoliopage hr {
+  border-color: #1c1d1e;
+}
+
+.iso-section2 {
+  color: white;
+}
+
+.filter-wrapper2 {
+    width: 100%;
+    margin: 40px 0 24px 0;
+    overflow: hidden;
+    text-align: center;
+}
+.filter-wrapper2 li {
+    display: inline-block;
+    margin: 4px;
+}
+
+.filter-wrapper2 li a {
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 8px 17px;
+    display: block;
+    text-decoration: none;
+    transition: all 0.4s ease-in-out;
+}
+
+
+.filter-wrapper2 li .selected,
+.filter-wrapper2 li a:focus,
+.filter-wrapper2 li a:hover {
+    color: #00619a;
+    outline: none;
+  }
+
+
 
 /* ==========================================================================
 footer section
@@ -647,4 +796,21 @@ media quires for mobile
     font-size: 14px;
   }
 
+   #aboutme h1 {
+    font-size: 24px;
+  }
+
+  #aboutme h3 {
+    font-size: 14px;
+  }
+
+  #merlynportrait {
+    display: none;
+  }
+
 }
+
+@media (max-width: 990px) {
+  #merlynportrait {
+    display: none;
+  }
