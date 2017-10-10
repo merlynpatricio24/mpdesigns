@@ -292,8 +292,8 @@ home section
   font-weight:700;
 }
 #home h3 {
-  font-size: 16px;
-  font-weight: 500;
+  font-size: 20px;
+  font-weight: 300;
 }
 #home hr {
   width: 240px;
@@ -803,7 +803,7 @@ media quires for mobile
     padding-top: 320px;
     padding-bottom: 320px;
   }
-  #home span {
+  #home h1 {
     font-size: 24px;
   }
   #home h3 {
