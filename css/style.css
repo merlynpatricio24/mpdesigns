@@ -537,7 +537,7 @@ contact section
 ========================================================================== */
 #contact {
   background: #3B3B3B url('../images/Forest.jpg') no-repeat center center;
-    background-attachment: fixed;
+  background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -617,10 +617,9 @@ contact section
 aboutme section
 ========================================================================== */
 #aboutme {
-  background: #3B3B3B url('../images/aboutmecover.jpg') no-repeat center center;
+  background-color: #00619a;
+background-image: url(http://www.transparenttextures.com/patterns/cubes.png);
   background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-size: cover;
   background-position: center;
   color: #ffffff;
   display: -webkit-flex;
@@ -629,7 +628,7 @@ aboutme section
   -webkit-align-items: center;
   -ms-flex-align: center;
       align-items: center;
-  height: 100vh;
+  height: 40vh;
   text-align: center;
 }
 
