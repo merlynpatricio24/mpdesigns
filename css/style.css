@@ -748,8 +748,7 @@ contact page section
 ========================================================================== */
 #contactpage {
  background-color: #00619a;
- background-image: url(http://www.transparenttextures.com/patterns/cubes.png);
-  background-attachment: fixed;
+ background-attachment: fixed;
   background-position: center;
   color: #ffffff;
   display: -webkit-flex;
