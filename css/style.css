@@ -362,6 +362,10 @@ color: white;
   margin-bottom: 60px; 
 }
 
+.storycontent p {
+  margin-bottom: 60px; 
+}
+
 .btn-aboutme {
   background: #1c1d1e;
   border: 1px solid #1c1d1e;
@@ -372,9 +376,14 @@ color: white;
   letter-spacing: 2px;
   padding: 12px 42px;
   margin-top: 40px;
-  margin-right: 16px;
+  margin-right: 0px;
   transition: all 0.4s ease-in-out;
+}
 
+.btn-aboutme {
+  background: transparent;
+  border: 1px solid #1c1d1e;
+  color:#1c1d1e;
 }
 
 .btn-resume {
@@ -387,7 +396,7 @@ color: white;
   letter-spacing: 2px;
   padding: 12px 42px;
   margin-top: 10px;
-  margin-right: 16px;
+  margin-right: 0px;
   transition: all 0.4s ease-in-out;
 }
 
