@@ -380,7 +380,7 @@ color: white;
   transition: all 0.4s ease-in-out;
 }
 
-.btn-aboutme {
+.btn-aboutme:hover {
   background: transparent;
   border: 1px solid #1c1d1e;
   color:#1c1d1e;
