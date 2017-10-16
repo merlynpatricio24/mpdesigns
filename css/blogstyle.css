@@ -1,0 +1,327 @@
+/* ==========================================================================
+General section
+========================================================================== */
+h4 {
+	font-weight: 300;
+}
+
+.btn-content {
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+background: #1c1d1e;
+  border: 1px solid white;
+  border-radius: 15px;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  padding: 12px 42px;
+  transition: all 0.4s ease-in-out;
+  text-align: center;
+  width: 50%;
+}
+
+#desktop {
+	width: 50%;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+#mobile {
+	width: 30%;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+
+/* ==========================================================================
+Eden section
+========================================================================== */
+
+#blogeden {
+  background: #3B3B3B url('../images/edenblog.jpg') no-repeat center center;
+  background-attachment: fixed;
+  background-position: center;
+  color: #ffffff;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+      align-items: center;
+  height: 40vh;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+#blogeden hr {
+	margin-bottom: 30px;
+}
+
+.lead {
+	line-height: 200%;
+	padding: 0;
+}
+
+#edenscreen {
+	width: 100%;
+	height: auto;
+}
+
+#cabin {
+	width: 80%;
+	height: auto;
+	padding-left: 80px;
+}
+
+.btn-blog {
+  background: #00619a;
+  border: 1px solid #00619a;
+  border-radius: 15px;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  padding: 12px 42px;
+  transition: all 0.4s ease-in-out;
+}
+
+.btn-blog:hover {
+	background:transparent;
+	color: white;
+}
+
+
+/* ==========================================================================
+IMDb section
+========================================================================== */
+
+#blogimdb {
+  background: #3B3B3B url('../images/imdb/imdbcover.jpeg') no-repeat center center;
+  background-attachment: fixed;
+  background-position: center;
+  color: #ffffff;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+      align-items: center;
+  height: 40vh;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+#imdbbrand {
+	width: 50%;
+	height: auto;
+	margin-left: 70px;
+}
+
+#imdbscreen {
+	width: 100%;
+	height: auto;
+}
+
+/* ==========================================================================
+Palawan section
+========================================================================== */
+
+#blogpalawan {
+   background: #3B3B3B url('../images/palawan/palawancover.jpeg') no-repeat center center;
+  background-attachment: fixed;
+  background-position: center;
+  color: #ffffff;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+      align-items: center;
+  height: 40vh;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+#palawansvg {
+	width: 40%;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+/* ==========================================================================
+Weather section
+========================================================================== */
+
+#blogweather {
+   background: #1c1d1e;
+  background-position: center;
+  color: #ffffff;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+      align-items: center;
+  height: 40vh;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+#weathermock {
+	width: 100%;
+	height: auto;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+}
+
+#swipe {
+	width: 100%;
+	height: auto;
+}
+
+#weatherlogo {
+	width: 60%;
+	height: auto;
+	margin-left:auto;
+	margin-right: auto;
+	padding: 0;
+	display: block;
+}
+
+/* ==========================================================================
+JOF section
+========================================================================== */
+
+#blogjof {
+  background: #3B3B3B url('../images/jof/jofcover.jpeg') no-repeat center center;
+  background-position: center;
+  color: #ffffff;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+      align-items: center;
+  height: 40vh;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+#jofscreen {
+	width: 40%;
+	height: auto;
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+}
+
+#jofshots {
+	width: 100%;
+	height: auto;
+}
+
+/* ==========================================================================
+TEE section
+========================================================================== */
+
+#blogtee {
+  background: #3B3B3B url('../images/tee/teecover.jpeg') no-repeat center center;
+  background-position: center;
+  color: #ffffff;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+      align-items: center;
+  height: 40vh;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+#teeprime {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	height: auto;
+	width: 40%;
+}
+
+#teetest {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	height: auto;
+	width: 100%;
+}
+
+#teelist {
+	font-size: 20px;
+}
+
+
+/* ==========================================================================
+Moblie section
+========================================================================== */
+
+@media (max-width: 440px) {
+  #blogeden h1 {
+    font-size: 24px;
+  }
+
+  #blogweather h1 {
+    font-size: 24px;
+  }
+
+  #blogimdb h1 {
+    font-size: 24px;
+  }
+
+  #blogpalawan h1 {
+    font-size: 24px;
+  }
+
+  .btn-blog {
+  	font-size: 12px;
+  }
+
+    .btn-content {
+    font-size: 10px;
+    width: 80%;
+  }
+
+  #desktop {
+	width: 100%;
+}
+
+  #mobile {
+	width: 100%;
+  }
+
+  #swipe {
+    width: 150%;
+    height: auto;
+    margin-left: -80px;
+  }
+}
+
+@media (max-width: 1199px) {
+  #teetest  {
+    width: 40%;
+    height: auto;
+  }
+
+  #weathermock  {
+    width: 40%;
+    height: auto;
+  }
+}

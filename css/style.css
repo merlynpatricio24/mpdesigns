@@ -42,6 +42,18 @@ hr {
   border-color: white;
 }
 
+button:hover {
+  cursor: pointer;
+}
+
+button:link {
+  text-decoration: none;
+}
+
+button:visited {
+  text-decoration: none;
+}
+
 .section-title strong {
 	color: #00C6D7;
   font-size: 56px;
@@ -248,18 +260,6 @@ navigation section
         background: white;
         border-color: transparent;
     }
-@media(min-width:768px){
-    .custom-navbar {
-            background: #1c1d1e;
-            padding: 10px;
-            border-bottom: 0;
-            background: 0 0;
-         }
-    .custom-navbar.top-nav-collapse {
-            padding: 8px;
-            background: #1c1d1e;
-        }
-}
 
 
 /* ==========================================================================
@@ -692,6 +692,298 @@ aboutme 2 section
 }
 
 /* ==========================================================================
+eden page section
+========================================================================== */
+
+
+#edensection {
+  background: #3B3B3B url('../images/treebg.jpg') no-repeat center center;
+  background-position: center;
+  background-size: cover;
+  color: #ffffff;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+      align-items: center;
+  height: 90vh;
+}
+
+#edensection p {
+  padding-top: 20px;
+  font-size: 20px;
+}
+
+#edensection button {
+  background: #d9c699;
+  border: 1px solid #1c1d1e;
+  border-radius: 15px;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 300;
+  letter-spacing: 2px;
+  padding: 12px 42px;
+  transition: all 0.4s ease-in-out;
+  margin-top: 20px;
+  }
+
+  #edensection img {
+    width: 100%;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+  }
+
+   #edensection a {
+    color: #1c1d1e;
+  }
+
+  /* ==========================================================================
+palawan page section
+========================================================================== */
+
+
+#palawansection {
+  background: #3B3B3B url('../images/sandbg.jpg') no-repeat center center;
+  background-position: center;
+  background-size: cover;
+  color: #ffffff;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+      align-items: center;
+  height: 90vh;
+}
+
+#palawansection p {
+  padding-top: 20px;
+  font-size: 20px;
+}
+
+#palawansection button {
+  background: #339A80;
+  border: 1px solid #339A80;
+  border-radius: 15px;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 300;
+  letter-spacing: 2px;
+  padding: 12px 42px;
+  transition: all 0.4s ease-in-out;
+  margin-top: 20px;
+  }
+
+  #palawansection img {
+    width: 100%;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+  }
+
+   #palawansection a {
+    color: white;
+  }
+
+  /* ==========================================================================
+imdb page section
+========================================================================== */
+
+#imdbsection {
+  background: #f3ce13;
+  background-position: center;
+  background-size: cover;
+  color: black;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+      align-items: center;
+  height: 90vh;
+}
+
+#imdbsection p {
+  padding-top: 20px;
+  font-size: 20px;
+}
+
+#imdbsection button {
+  background: #1c1d1e;
+  border: 1px solid #1c1d1e;
+  border-radius: 15px;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 300;
+  letter-spacing: 2px;
+  padding: 12px 42px;
+  transition: all 0.4s ease-in-out;
+  margin-top: 20px;
+  }
+
+ #imdbsection img {
+    width: 100%;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+  }
+
+   #imdbsection a {
+    color: white;
+  }
+
+    /* ==========================================================================
+weather page section
+========================================================================== */
+
+#weathersection {
+  background: #1c1d1e;
+  background-position: center;
+  background-size: cover;
+  color: white;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+      align-items: center;
+  height: 90vh;
+}
+
+#weathersection p {
+  padding-top: 20px;
+  font-size: 20px;
+}
+
+#weathersection button {
+  background: #009dff;
+  border: 1px solid #009dff;
+  border-radius: 15px;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 300;
+  letter-spacing: 2px;
+  padding: 12px 42px;
+  transition: all 0.4s ease-in-out;
+  margin-top: 20px;
+  }
+
+ #weathersection img {
+    width: 100%;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+  }
+
+ #weathersection a {
+    color: white;
+  }
+
+    /* ==========================================================================
+jof page section
+========================================================================== */
+
+#jofsection {
+  background: white;
+  background-position: center;
+  background-size: cover;
+  color: black;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+      align-items: center;
+  height: 90vh;
+}
+
+#jofsection p {
+  padding-top: 20px;
+  font-size: 20px;
+}
+
+#jofsection button {
+  background: red;
+  border: 1px solid red;
+  border-radius: 15px;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 300;
+  letter-spacing: 2px;
+  padding: 12px 42px;
+  transition: all 0.4s ease-in-out;
+  margin-top: 20px;
+  }
+
+ #jofsection img {
+    width: 100%;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+  }
+
+   #jofsection a {
+    color: white;
+  }
+
+  /* ==========================================================================
+tee page section
+========================================================================== */
+
+
+#teesection {
+  background-color: #000000;
+background-image: url(http://www.transparenttextures.com/patterns/rocky-wall.png);
+  background-position: center;
+  background-size: cover;
+  color: #ffffff;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+      align-items: center;
+  height: 90vh;
+}
+
+#teesection p {
+  padding-top: 20px;
+  font-size: 20px;
+}
+
+#teesection button {
+  background: #fd8a00;
+  border: 1px solid #fd8a00;
+  border-radius: 15px;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 300;
+  letter-spacing: 2px;
+  padding: 12px 42px;
+  transition: all 0.4s ease-in-out;
+  margin-top: 20px;
+  }
+
+  #teesection img {
+    width: 100%;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+  }
+
+   #teesection a {
+    color: white;
+  }
+
+/* ==========================================================================
 portfolio page section
 ========================================================================== */
 #portfoliopage {
@@ -877,6 +1169,20 @@ media quires for mobile
     display: none;
   }
 
+
+}
+
+@media(min-width:768px){
+    .custom-navbar {
+            background: #1c1d1e;
+            padding: 10px;
+            border-bottom: 0;
+            background: 0 0;
+         }
+    .custom-navbar.top-nav-collapse {
+            padding: 8px;
+            background: #1c1d1e;
+        }
 }
 
 @media (max-width: 990px) {
@@ -889,4 +1195,67 @@ media quires for mobile
   }
 
 
+}
+
+@media screen and (max-width: 1199px) {
+    #edensection img{
+    width: 40%;
+    height: auto;
+  }
+
+  #imdbsection img{
+    width: 40%;
+    height: auto;
+  }
+
+  #weathersection img{
+    width: 40%;
+    height: auto;
+  }
+
+  #palawansection img{
+    width: 40%;
+    height: auto;
+  }
+
+  #jofsection img{
+    width: 40%;
+    height: auto;
+  }
+
+  #teesection img{
+    width: 40%;
+    height: auto;
+  }
+}
+
+
+
+
+@media(max-width:770px) and (min-width: 320px) {
+  #edensection img{
+    display: none;
+  }
+
+  #imdbsection img{
+    display: none;
+  }
+
+  #weathersection img{
+  display: none;
+  }
+
+  #palawansection img{
+    display: none;
+  }
+
+  #jofsection img{
+    display: none;
+  }
+
+  #teesection img{
+display: none;
+  }
+
+      
 }
