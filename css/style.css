@@ -689,6 +689,9 @@ aboutme 2 section
 #merlynportrait {
   width: 280px;
   height: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
 
 /* ==========================================================================
