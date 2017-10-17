@@ -713,6 +713,7 @@ eden page section
 #edensection p {
   padding-top: 20px;
   font-size: 20px;
+  padding-bottom: 20px;
 }
 
 #edensection button {
@@ -736,8 +737,25 @@ eden page section
     display: block;
   }
 
-   #edensection a {
-    color: #1c1d1e;
+
+  .btn-eden {
+  background: #d9c699;
+  border: 1px solid #1c1d1e;
+  border-radius: 15px;
+  color: #1c1d1e;
+  font-size: 15px;
+  font-weight: 300;
+  letter-spacing: 2px;
+  padding: 12px 42px;
+  transition: all 0.4s ease-in-out;
+  margin-top: 20px;
+  }
+
+      .btn-eden:hover {
+    background: transparent;
+    color: #d9c699;
+    text-decoration: none;
+    border: 1px solid #d9c699;
   }
 
   /* ==========================================================================
@@ -762,9 +780,10 @@ palawan page section
 #palawansection p {
   padding-top: 20px;
   font-size: 20px;
+  padding-bottom: 20px;
 }
 
-#palawansection button {
+.btn-palawan {
   background: #339A80;
   border: 1px solid #339A80;
   border-radius: 15px;
@@ -777,16 +796,19 @@ palawan page section
   margin-top: 20px;
   }
 
+      .btn-palawan:hover {
+    background: transparent;
+    color: #339a80;
+    text-decoration: none;
+    border: 1px solid #339a80;
+  }
+
   #palawansection img {
     width: 100%;
     height: auto;
     margin-right: auto;
     margin-left: auto;
     display: block;
-  }
-
-   #palawansection a {
-    color: white;
   }
 
   /* ==========================================================================
@@ -810,9 +832,10 @@ imdb page section
 #imdbsection p {
   padding-top: 20px;
   font-size: 20px;
+  padding-bottom: 20px;
 }
 
-#imdbsection button {
+.btn-imdb {
   background: #1c1d1e;
   border: 1px solid #1c1d1e;
   border-radius: 15px;
@@ -825,16 +848,19 @@ imdb page section
   margin-top: 20px;
   }
 
+      .btn-imdb:hover {
+    background: transparent;
+    color: #1c1d1e;
+    text-decoration: none;
+    border: 1px solid #1c1d1e;
+  }
+
  #imdbsection img {
     width: 100%;
     height: auto;
     margin-right: auto;
     margin-left: auto;
     display: block;
-  }
-
-   #imdbsection a {
-    color: white;
   }
 
     /* ==========================================================================
@@ -858,9 +884,10 @@ weather page section
 #weathersection p {
   padding-top: 20px;
   font-size: 20px;
+  padding-bottom: 20px;
 }
 
-#weathersection button {
+.btn-weather {
   background: #009dff;
   border: 1px solid #009dff;
   border-radius: 15px;
@@ -873,16 +900,19 @@ weather page section
   margin-top: 20px;
   }
 
+      .btn-weather:hover {
+    background: transparent;
+    color: #009dff;
+    text-decoration: none;
+    border: 1px solid #009dff;
+  }
+
  #weathersection img {
     width: 100%;
     height: auto;
     margin-right: auto;
     margin-left: auto;
     display: block;
-  }
-
- #weathersection a {
-    color: white;
   }
 
     /* ==========================================================================
@@ -906,9 +936,10 @@ jof page section
 #jofsection p {
   padding-top: 20px;
   font-size: 20px;
+  padding-bottom: 20px;
 }
 
-#jofsection button {
+.btn-jof {
   background: red;
   border: 1px solid red;
   border-radius: 15px;
@@ -929,9 +960,13 @@ jof page section
     display: block;
   }
 
-   #jofsection a {
-    color: white;
+    .btn-jof:hover {
+    background: transparent;
+    color: red;
+    text-decoration: none;
+    border: 1px solid red;
   }
+
 
   /* ==========================================================================
 tee page section
@@ -956,9 +991,10 @@ background-image: url(http://www.transparenttextures.com/patterns/rocky-wall.png
 #teesection p {
   padding-top: 20px;
   font-size: 20px;
+  padding-bottom: 20px;
 }
 
-#teesection button {
+.btn-tee {
   background: #fd8a00;
   border: 1px solid #fd8a00;
   border-radius: 15px;
@@ -971,16 +1007,19 @@ background-image: url(http://www.transparenttextures.com/patterns/rocky-wall.png
   margin-top: 20px;
   }
 
+  .btn-tee:hover {
+    background: transparent;
+    color: #fd8a00;
+    text-decoration: none;
+    border: 1px solid #fd8a00;
+  }
+
   #teesection img {
     width: 100%;
     height: auto;
     margin-right: auto;
     margin-left: auto;
     display: block;
-  }
-
-   #teesection a {
-    color: white;
   }
 
 /* ==========================================================================
