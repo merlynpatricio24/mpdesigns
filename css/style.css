@@ -267,7 +267,7 @@ home section
 ========================================================================== */
 #home {
   background: #3B3B3B url('../images/rocket.svg');
-  background-attachment: fixed;
+
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -300,12 +300,12 @@ home section
   border: 1px solid white;
 }
 #home .btn {
-  background: #00619a;
-  border: 1px solid #00619a;
+  background: #2a1f4e;
+  border: 1px solid #2a1f4e;
   border-radius: 15px;
   color: white;
   font-size: 15px;
-  font-weight: 300;
+  font-weight: 700;
   letter-spacing: 2px;
   padding: 12px 42px;
   margin-top: 40px;
@@ -314,20 +314,53 @@ home section
 }
 #home .btn:hover {
   background: transparent;
-  border-color: white;
+  border-color: #2a1f4e;
   color: white;
 }
-#home .btn-danger {
-  background: #2a1f4e;
+#home .btn-aboutme {
+  background: white;
   border-color: transparent;
-  color: white;
+  color: #00619a;
 }
-#home .btn-danger:hover {
+#home .btn-aboutme:hover {
 	border: 1px solid #ffffff;
   	border-radius: 15px;
 	background: transparent;
   	color: #ffffff;
 }
+
+#down {
+  width: 25px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  position: relative;
+  bottom: -100px;
+   animation: dance 1s infinite;
+  -webkit-animation: dance 1s infinite;
+  -moz-animation: dance 1s infinite;
+}
+
+@keyframes dance {
+  0% {bottom: -100px;}
+ 50% {bottom: -130px;}
+ 100% {bottom: -100px;}
+}
+
+@-webkit-keyframes dance {
+ 0% {bottom: -100px;}
+ 50% {bottom: -130px;}
+ 100% {bottom: -100px;}
+}
+
+@-moz-keyframes dance {
+ 0% {bottom: -100px;}
+ 50% {bottom: -130px;}
+ 100% {bottom: -100px;}
+}
+
+.
 
 /* ==========================================================================
 about section
@@ -1173,6 +1206,10 @@ footer p {
   color: #00c6d7;
 }
 
+#contacts {
+  margin-top: -10px;
+}
+
 
 
 @media screen and (min-width: 992px) {
@@ -1210,6 +1247,32 @@ media quires for mobile
   #merlynportrait {
     display: none;
   }
+
+  #down {
+    bottom: -50px;
+  }
+
+  @keyframes dance {
+  0% {bottom: -50px;}
+ 50% {bottom: -80px;}
+ 100% {bottom: -50px;}
+}
+
+@-webkit-keyframes dance {
+  0% {bottom: -50px;}
+ 50% {bottom: -80px;}
+ 100% {bottom: -50px;}
+}
+
+@-moz-keyframes dance {
+  0% {bottom: -50px;}
+ 50% {bottom: -80px;}
+ 100% {bottom: -50px;}
+}
+
+#home .btn {
+  font-size: 14px;
+}
 
 
 }
