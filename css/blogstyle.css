@@ -38,6 +38,30 @@ background: #1c1d1e;
 	display: block;
 }
 
+/* ==========================================================================
+Webhallen section
+========================================================================== */
+
+#blogwebhallen {
+  background: #3B3B3B url('../images/webhallen/webhallenbg.jpeg') no-repeat center center;
+  background-position: center;
+  color: #ffffff;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+      align-items: center;
+  height: 40vh;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+#webhallenscreen {
+    width: 100%;
+  height: auto;
+}
+
 
 /* ==========================================================================
 Eden section

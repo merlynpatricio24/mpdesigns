@@ -899,6 +899,60 @@ imdb page section
     display: block;
   }
 
+
+  /* ==========================================================================
+webhallen page section
+========================================================================== */
+
+#webhallensection {
+  background: #272f45;
+  background-position: center;
+  background-size: cover;
+  color: white;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+      align-items: center;
+  height: 90vh;
+}
+
+#webhallensection p {
+  padding-top: 20px;
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+
+.btn-webhallen {
+  background: #0075c4;
+  border: 1px solid #0075c4;
+  border-radius: 15px;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 300;
+  letter-spacing: 2px;
+  padding: 12px 42px;
+  transition: all 0.4s ease-in-out;
+  margin-top: 20px;
+  }
+
+      .btn-webhallen:hover {
+    background: transparent;
+    color: white;
+    text-decoration: none;
+    border: 1px solid #0075c4;
+  }
+
+ #webhallensection img {
+    width: 100%;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+  }
+
+
     /* ==========================================================================
 weather page section
 ========================================================================== */
@@ -1332,6 +1386,11 @@ media quires for mobile
     width: 40%;
     height: auto;
   }
+
+      #webhallensection img{
+    width: 40%;
+    height: auto;
+  }
 }
 
 
@@ -1360,6 +1419,10 @@ media quires for mobile
 
   #teesection img{
 display: none;
+  }
+
+      #webhallensection img{
+        display:none;
   }
 
       
