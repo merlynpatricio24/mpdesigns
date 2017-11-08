@@ -340,7 +340,7 @@ home section
 #home .btn-aboutme {
   background: white;
   border-color: transparent;
-  color: #00619a;
+  color: #011016;
 }
 #home .btn-aboutme:hover {
 	border: 1px solid #ffffff;
@@ -1070,7 +1070,7 @@ jof page section
     display: block;
   }
 
-    .btn-jof:hover {
+  .btn-jof:hover {
     background: transparent;
     color: red;
     text-decoration: none;
