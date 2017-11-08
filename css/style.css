@@ -262,12 +262,32 @@ navigation section
     }
 
 
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: #00619a; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 20px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    transition: all 0.2s ease-in-out;
+
+}
+
+#myBtn:hover {
+    bottom:30px; /* Add a dark-grey background on hover */
+}
+
 /* ==========================================================================
 home section
 ========================================================================== */
 #home {
   background: #3B3B3B url('../images/rocket.svg');
-
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -939,7 +959,7 @@ webhallen page section
 
       .btn-webhallen:hover {
     background: transparent;
-    color: white;
+    color: #0075c4;
     text-decoration: none;
     border: 1px solid #0075c4;
   }
@@ -1279,6 +1299,10 @@ footer p {
 media quires for mobile
 ========================================================================== */
 @media (max-width: 440px) {
+
+  #myBtn {
+    padding:17px;
+  }
   #home {
     padding-top: 320px;
     padding-bottom: 320px;
