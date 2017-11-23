@@ -681,8 +681,7 @@ contact section
 aboutme section
 ========================================================================== */
 #aboutme {
-  background-color: #00619a;
-background-image: url(http://www.transparenttextures.com/patterns/cubes.png);
+background-color: #1c1d1e;
   background-attachment: fixed;
   background-position: center;
   color: #ffffff;
@@ -692,7 +691,7 @@ background-image: url(http://www.transparenttextures.com/patterns/cubes.png);
   -webkit-align-items: center;
   -ms-flex-align: center;
       align-items: center;
-  height: 40vh;
+  height: 10vh;
   text-align: center;
 }
 
